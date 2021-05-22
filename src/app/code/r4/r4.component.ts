@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiRestService } from '../api-rest.service';
+import { ApiRestService } from '../../api-rest.service';
 
 @Component({
   selector: 'app-r4',
