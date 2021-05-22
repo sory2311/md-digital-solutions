@@ -1,0 +1,22 @@
+<div class="container">
+        <div class="video">
+                <img src="assets/img/r3.png" alt="imagen" (click)="ver()">
+              </div>
+              
+              <div class="info">
+                <h1 class="titulo">The world is giving you answers each day.</h1>
+                <p class="parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore officiis earum, aspernatur enim fugit nostrum veritatis voluptatem quas, quod et repellendus dolore omnis illo veniam voluptatum esse? Quae, alias eos!
+                Doloribus laudantium similique illo earum rerum, exercitationem inventore, deleniti asperiores fugit magni, iste explicabo in. Ipsum velit officiis vero sit voluptate, ex rem similique exercitationem laudantium nihil, suscipit quidem pariatur!
+                Omnis praesentium inventore minus soluta aut consectetur ipsum nam voluptas excepturi repellat tempore in, facere eius, officiis, itaque blanditiis! Sapiente, id eum. Ratione, fugiat repellendus sint repudianda.</p>
+              </div>
+              <div id="myModal" class="modal" [style.display]="mostrar ? 'block' : 'none'">
+              <div class="modal-content">
+                    <span class="close" (click)="ocultar()">&times;</span>
+                    <video class="video-modal" controls>
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                     </video>
+                  </div>
+                </div>
+            </div>
+
+

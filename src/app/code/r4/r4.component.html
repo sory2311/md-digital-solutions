@@ -1,0 +1,28 @@
+
+<div class="container">
+        <h2>Solicitud R4</h2>
+    <table class="table-r2">
+        <thead>
+           <tr>
+               <th>Country</th>
+               <th>City</th>
+               <th>Temperature</th>
+               <th>Humidity</th>
+               <th>Hour</th>
+               <th>Visibility</th>
+            </tr>    
+        </thead>
+        <tbody>
+            <tr>
+                <td data-text="Country">{{currentWeather.location.country}}</td>
+                <td data-text="City">{{currentWeather.location.name}}</td>
+                <td data-text="Temperature">{{currentWeather.current.temperature}}</td>
+                <td data-text="Humidity">{{currentWeather.current.humidity}}</td>
+                <td data-text="Hour">{{currentWeather.current.observation_time}}</td>
+                <td data-text="Visibility">{{currentWeather.current.visibility}}</td>
+            </tr>
+        </tbody>
+   </table>
+   
+</div>
+
